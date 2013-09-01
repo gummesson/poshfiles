@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
 	<console change_refresh="10" refresh="100" rows="30" columns="90" buffer_rows="500" buffer_columns="0" shell="%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" init_dir="D:\" start_hidden="0" save_size="0" background_text_opacity="255">
-		<colors><!-- Hej! -->
+		<colors>
 			<color id="0" r="20" g="20" b="20"/>
 			<color id="1" r="117" g="135" b="166"/>
 			<color id="2" r="131" g="144" b="97"/>
