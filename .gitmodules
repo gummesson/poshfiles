@@ -1,0 +1,3 @@
+[submodule "Modules/Find-String"]
+	path = Modules/Find-String
+	url = https://github.com/drmohundro/Find-String.git
