@@ -2,3 +2,4 @@
 
 # Modules
 Import-Module Kapow
+Import-Module Find-String
