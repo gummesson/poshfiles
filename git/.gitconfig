@@ -9,5 +9,6 @@
   tool = gvimdiff
 [core]
   editor = gvim
+  autocrlf = input
 [push]
   default = tracking
