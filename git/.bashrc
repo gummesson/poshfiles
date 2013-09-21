@@ -1,5 +1,17 @@
 # .bashrc ($HOME/.bashrc)
 
+# Prompt
+function get_git_branch() {
+  git branch 2> /dev/null | sed -e "/^[^*]/d" -e "s/* \(.*\)/ (\1)/"
+}
+
+RED="\[\033[0;31m\]"
+YELLOW="\[\033[0;33m\]"
+GREEN="\[\033[0;32m\]"
+CLEAR="\[\033[0m\]"
+
+PS1="$GREEN\u $RED\w$YELLOW\$(get_git_branch)$CLEAR\n\$ "
+
 # Shell
 alias cls='clear'
 
